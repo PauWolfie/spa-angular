@@ -1,1 +1,9 @@
-<p>bdy-home works!</p>
+<div *ngIf="show"
+    class="card card-inverse card-primary mb-3 text-center">
+    <div class="card-block">
+        <div class="card-blockquote">
+            <p>{{ text }}</p>
+            <footer><cite title="Source Title"> {{ author }} </cite></footer>
+        </div>
+    </div>
+</div>
